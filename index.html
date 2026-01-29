@@ -1,1 +1,141 @@
-<h1> Hello, I am Muhammad Elius </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Elius - Personal Website</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .container {
+            display: flex;
+            gap: 50px;
+        }
+        /* Sidebar styling */
+        .sidebar {
+            flex: 1;
+            text-align: center;
+            max-width: 250px;
+        }
+        .profile-img {
+            width: 150px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .sidebar h1 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #003366;
+        }
+        .sidebar p {
+            font-size: 0.9rem;
+            margin: 5px 0;
+            color: #666;
+        }
+        .social-links {
+            margin-top: 20px;
+            font-size: 1.2rem;
+        }
+        .social-links a {
+            margin: 0 8px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* Main content styling */
+        .main-content {
+            flex: 3;
+        }
+        h2 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 30px;
+            color: #003366;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            color: #0056b3;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .date-tag {
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <img src="avatar.jpg" alt="Provakar Mondal" class="profile-img">
+            <h1>Muhammad Eliusl</h1>
+            <p>PhD Student</p>
+            <p>UC Berkeley</p>
+            <p>m_elius@berkeley.edu</p>
+            
+            <div class="social-links">
+                <a href="#">🌐</a> <a href="#">📄</a> <a href="#">🐙</a> <a href="#">🔗</a> </div>
+        </div>
+
+        <div class="main-content">
+            <section>
+                <h2>About Me</h2>
+                  <p>
+                    I am a third-year PhD student and Graduate Student Researcher in the Department of Civil and Environmental Engineering at
+                    <span class="highlight">the University of California, Berkeley</span>, advised by <span class="highlight">Dr. Tina Chow</span>.
+                    My research focuses on atmospheric science, combining high-resolution WRF-Chem large-eddy simulations with Python- and GIS-based analysis
+                    to study landfill methane dispersion and evaluate methane observations from stationary, mobile, and remote-sensing platforms.
+                  </p>
+                  
+                  <p>
+                    Prior to UC Berkeley, I completed an MSc at the University of Massachusetts Dartmouth, focusing on superhydrophobic surfaces,
+                    antibiofouling behavior, and 3D bacterial tracking using digital holography. I earned my BS from Bangladesh University of Engineering &amp;
+                    Technology (BUET), with a focus on computational fluid dynamics and high-speed aerodynamics, and I aim to become a leading expert in
+                    interdisciplinary fluid-related research.
+                  </p>
+
+            </section>
+
+            <section>
+                <h2>Research Interests</h2>
+                <ul>
+                    <li><b>Atmospheric Modeling:</b> Large-Eddy Simulations (LES), WRF-Chem, turbulence-resolving plume dynamics</li>
+                    <li><b>Methane Emissions:</b> Landfill CH₄ dispersion, source characterization, facility-scale modeling</li>
+                    <li><b>Model–Observation Integration:</b> Statistical comparison with stationary, mobile, and remote-sensing measurements</li>
+                    <li><b>Data Analysis & Geospatial Tools:</b> Python (Xarray, SciPy), GIS, raster-based analysis</li>
+                    <li><b>Fluid Mechanics:</b> Experimental and computational fluid dynamics, atmospheric flows</li>
+                </ul>
+            </section>
+
+
+            <section>
+            <h2>News</h2>
+            <ul>
+                <li>
+                    <span class="date-tag">[Feb. 22–25, 2026]</span>
+                    Will attend the Global Waste Management Symposium (GWMS).
+                </li>
+                <li>
+                    <span class="date-tag">[May 2025]</span>
+                    Passed my PhD Preliminary Exam.
+                </li>
+            </ul>
+        </section>
+
+        </div>
+    </div>
+
+</body>
+</html>
